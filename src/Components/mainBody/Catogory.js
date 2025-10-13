@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const catogories = [
   {
@@ -50,7 +51,7 @@ const Catogory = () => {
     <div className='catogory-div'>
      <div className='catogory-div-sub1'>
       {catogories.map((cat,index) => (
-        <a key={index} className='scrol-img-a'>
+        <Link to="/product" key={index} className='scrol-img-a'>
         <div className='firstimg'>
           <div className='imgMain'>
             <img className="_2puWtW _3a3qyb" src={cat.img} alt=""/>
@@ -58,7 +59,7 @@ const Catogory = () => {
             <span className='imgWord'>{cat.word}</span>
             <a href=""></a>
         </div>
-       </a>  
+       </Link>  
       ))}
       </div>          
     </div> 
