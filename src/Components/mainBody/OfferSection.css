@@ -1,0 +1,35 @@
+.section-4{
+    background-color: white;
+    height: calc(100% - 16px);
+    grid-column: 1 / 13;
+    order: 6;   
+    margin-bottom: 16px; 
+}
+.offerSec-Main-div{
+    display: flex;
+    flex-flow: wrap;
+    align-items: stretch;
+
+}
+.firstOffer{
+    max-width: 33.33333%;
+    flex-basis: 33.33333%;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+.firstOffer-sub1{
+    margin: 0px 4px;
+    aspect-ratio: 41 / 22;
+    flex: 1 1 0%;
+
+}
+.offerImg{
+    aspect-ratio: 41 / 22;
+    object-fit: cover;
+    display: block;
+    width: 100%;
+    opacity: 1;
+}
+.offersectTwo{
+    order:8
+}

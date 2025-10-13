@@ -1,0 +1,381 @@
+/* a{
+    text-decoration: none;
+    
+}
+
+.header-div-one{
+    padding-bottom: 56px;
+    min-width: 978px;
+    position: relative;
+}
+.mainHeader{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 56px;
+    background-color: #2874f0;
+    color: #f0f0f0;
+    z-index: 10;
+    flex-direction: row;
+}
+.nothingDiv{
+    height: 100%;
+    min-width: 124px;
+}
+.middleDiv{
+    display: flex;
+    max-width: 1248px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.logo{
+    display: flex;
+    justify-content: flex-end;
+    min-width: 137px;
+}
+.logo-sub-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+.explore{
+    font-size: 11px;
+    font-style: italic;
+    margin-top: -1px;
+    color: rgb(240, 240, 240);
+}
+.plus{
+    color: #ffe500;
+    font-weight: 500;
+    margin-right: 2px;
+}
+.searchBar-div{
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+    min-width: 304px;
+    width: calc(100% - 540px);
+    margin: 0 auto 0 12px;
+    align-items: center;
+}
+.form{
+    display: inline-block;
+    box-shadow: 0 2px 4px 0 rgba(0 ,0,0, 0.23);
+    width: 100%;
+    height: 36px;
+    max-width: 546px;
+    position: relative;
+}
+.searchBar-main{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 2px;
+    background-color: white;
+}
+.inputDiv{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+
+}
+input{
+    padding: 0 16px;
+    border-radius: 2px 0 0 2px;
+    border: 0;
+    outline: 0 none;
+    font-size: 14px;
+    height: 36px;
+    width: 100%;
+
+}  
+.searchBT{        
+    border: 1px solid white;
+    background-color: white;
+    height: 36px;
+    width: 44px;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 4px 12px 0 8px;
+}
+.login-div{
+    align-items: center;
+    min-width: 112px;
+    margin: 0 20px;
+    max-width: 150px;
+    display: flex;
+    justify-content: flex-end;
+    flex: 0 0 auto;
+}
+.login-sub{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 100%;
+    line-height: 20px;
+    font-size: 16px;
+    letter-spacing: .1px;
+    font-weight: 500;
+    color: white;
+
+}
+.login{
+    color: #2874f0;
+    font-weight: 500;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 2px;
+    padding: 5px 40px;
+    border: 1px solid #dbdbdb;
+} */
+
+
+
+.navBar{
+    padding-bottom: 56px;
+    position: relative;
+    min-width: 978px;
+}
+.navBar-sub{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 56px;
+    background-color: #2874f0;
+    color: #f0f0f0;
+    z-index: 10;
+
+}
+.nothing{
+    height: 100%;
+    min-width: 124px;
+}       
+.navBarMiddleDiv{
+    max-width: 1248px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+
+}
+.flipkartLogoDiv{
+    display: flex;
+    justify-content: flex-end;
+    min-width: 137px;
+
+}
+.fliplogo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+   
+.img{
+    display: block;
+}
+.explore,.plus{
+    font-size: 10.33px;
+    font-style: italic;
+    margin-top: -1px;
+    color: rgb(240, 240, 240);
+}
+.plus{
+    color:#ffe500 ;
+    font-weight: 500;
+    margin-right: 1px;
+}                   
+.searchBar{      
+    display: flex;
+    justify-content: flex-start;
+    height: 100%;
+    /* min-width: 304px; */
+    width: calc(100% - 540px);
+    margin: 0 18px 0 12px;
+    align-items: center;
+}
+.form{
+    display: inline-block;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .23);
+    width: 100%;
+    height: 36px;
+    max-width: 564px;
+    position: relative;
+}
+.searchBar-sub1{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 2px;
+    background-color: white;
+    width: 100%;
+}
+
+.sub1-one{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.input-one{
+    padding: 0 16px;
+    border-radius: 2px 0 0 2px;
+    font-size: 14px;
+    height: 36px;
+    width: 100%;
+    border: 0;
+    outline: 0 none;
+}
+.searchbt{
+    height: 36px;
+    width: 44px;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 4px 12px 0 8px;
+    border: 1px solid white;
+    background-color: white;
+}              
+.loginDiv,.sellerDiv{
+    align-items: center;
+    min-width: 112px;
+    max-width: 150px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 20px;
+    flex: 0 0 auto;
+    cursor: pointer;
+    height: 100%;
+    font-weight: 500;
+    line-height: 20px;
+    font-size: 15.5px;
+    letter-spacing: .1px;
+    position: relative;
+}
+.login-a{              
+    color: #2874f0;
+    background-color: white;
+    padding: 5px 40px;
+    border-radius: 2px;
+    border: 1px solid #dbdbdb;
+    font-weight: 500;
+} 
+.moreDiv{
+    display: flex;
+    flex: 0 0 auto;
+    max-width: 150px;
+    margin: 0 20px;
+    justify-content: flex-end;
+    font-size: 15.5px;
+}             
+.more{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    letter-spacing: .1px;
+    line-height: 20px;
+}
+.moreWord{
+    position: relative;
+    display: inline-block;
+    text-overflow: ellipsis;
+    max-width: 108px;
+    
+}
+.moreIcon{
+    transform: rotate(270deg);
+    margin: 1px 0 0 8px;
+
+}
+.cartDiv{
+    display: flex;
+}
+.cartIcon{
+    margin: 0 8px;
+}
+.seller-a{
+    color: white;
+}
+.itemsBar{
+     position: relative;
+    min-height: 40px;
+    color: black;
+    z-index: 6;
+    width: 100%;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.16);
+    background-color: white;
+    
+
+}
+
+
+.belowNavBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1248px;
+    height: 40px;
+    margin: auto;
+
+}
+.items,.itemss{
+    flex-grow: 1;
+    justify-content: center;
+    font-weight: 500;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    font-size: 13.5px;
+    line-height: 2px;
+    
+}
+/* itemsDescription */
+.itemsDescription{
+    width: 1250px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 290px;
+    position: absolute;
+    left: 0;
+    top: 40px;
+    background-color: #fff;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    z-index: 6;
+    box-shadow: 0 1px 2px 1px rgba(0, 0, 0, .16);
+    color: black;
+}
+.des-one{
+    display: flex;
+    flex-direction: column;
+    padding: 0 25px;
+    width: 100%;
+}
+.firstitm{
+    margin-top: 5px;
+    padding: 8px 0;
+    font-weight: 500;
+    font-size: 13px;
+    color: #212121;
+}
+.firstitm::after{
+    content: "►";
+    font-size: 8px;
+    color: rgb(194, 194, 194);
+    margin-left: 6px;
+    vertical-align: middle;
+}
+.des-one-items{
+    padding: 5px 0;
+    color: #666;
+    font-size: 13px;
+    cursor: pointer;
+}
+.des-one:nth-child(2n){
+    background: #f9f9f9;
+
+}
+#itemsDescription{
+    display: none;
+}
+             

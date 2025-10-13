@@ -1,0 +1,741 @@
+ a{
+    text-decoration: none;
+    border: none;
+ }
+ ul{
+    margin: 0;
+    padding: 0;
+ }
+#sectionMain{
+    margin: 0 auto;
+    min-width: 978px;
+    max-width: 1680px;
+    padding: 8px;
+    width: 100%;
+    position: relative;
+
+}
+.sectionMain-sub{
+    display: flex;
+    flex-flow: row;
+}
+
+#filterSection{
+    display: flex;
+    flex-flow: column;
+    width: 16.66%;
+    flex: 0 0 280px;
+    max-width: 280px;
+    padding: 0px 10px 0px 0px;
+    position: relative;
+
+}
+.filterSection{
+    padding: 16px;
+    border-bottom: 1px solid #f0f0f0;
+
+}
+.subDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin: -16px;
+    padding: 16px;
+}
+.wordDiv{
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    display: inline-block;
+}
+.arrow{
+    display: inline-block;
+    cursor: pointer;
+    width: 6px;
+    height: 11px;
+    transform: rotate(-90deg);
+}
+.arrow.rotate{
+    transform: rotate(90deg);
+}
+.firstSec{
+    padding-bottom: 12px;
+}
+.Word-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    text-transform: capitalize;
+    /* width: 67%; */
+    letter-spacing: .3px;
+
+}
+
+
+.div-one{
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #212121;
+    margin-bottom: 5px;
+}
+.div-two,.div-three{
+    padding: 5px 0;
+    color: #212121;
+    white-space: nowrap;
+}
+.IZmjtf{
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.catogories-a,.mobiles-a{
+    color: #878787;
+    width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: inline-flex;
+    vertical-align: top;
+}
+.mobiles-a{
+    font-weight: 500;
+    color: #212121;
+} 
+
+.price-word{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.price{
+    font-weight: 500;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    display: inline-block;
+}
+
+.bgdiv{
+    position: relative;
+    bottom: -6px;
+}
+.bgdiv-one{
+    background-color: #e0e0e0;
+    display: inline-block;
+    width: 47.362px;
+    height: 25px;
+}
+.selectBox{
+    color: #a3a3a3;
+    font-size: 14px;
+    margin: 5px -4px 0;
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+}
+.maxPrice{
+    display: inline-block;
+    flex-grow: 2;
+}
+#Max,#Min{
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    border-radius: 1px;
+    appearance: none;
+    background: #fff url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhl…yMTIxMjEiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjwvc3ZnPg==") no-repeat 90% 50%;
+    height: 24px;
+    font-size: 14px;
+    color: #212121;
+    line-height: 1;
+    padding: 0 5px;
+    outline: none;
+
+}
+option{
+    padding: 0 7px;
+
+}
+.to{
+    display: inline-block;
+    margin: 0 9px;
+    font-size: 14px;
+    color: #878787;
+    line-height: 1;
+    flex: 1;
+    text-align: center;
+}
+.minPrice{
+    display: inline-block;
+    margin-left: 1.5px;
+    flex-grow: 2;
+}
+.slider{
+    position: relative;
+    height: 13px;
+    cursor: pointer;
+}
+.ball{
+    display: inline-block;
+    position: absolute;
+    z-index: 1;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    top: -3.5px;
+
+}
+.leftSide{
+    left: -13.5px;
+}
+.rightSide{
+    right: -13.5px;
+
+}
+
+.bb{
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border: 1px solid #bababa;
+    position: absolute;
+    background-color: #fff;
+    top: 3.5px;
+}
+.sliderline{
+    background-color: #c2c2c2;
+    height: 2px;
+    display: inline-block;
+    position: absolute;
+    top: 6px;
+    width: 100%;
+}
+.bluecolor{
+    background-color: #2874f0;
+    transform-origin: left center;
+    top: 4px;
+    height: 6px;
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+}
+.dotDiv{
+    margin-top: 12px;
+}
+.dotdiv-one,.dotdiv-two{
+    width: 47.362px;
+    display: inline-block;
+    text-align: left;
+    font-size: 20px;
+    color: #c2c2c2;
+
+}
+.dotdiv-two{
+    width: 0px;
+}
+.filterSection-two{
+    display: flex;
+    flex-flow: column;
+    background-color: white;
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.06);
+
+   
+}
+
+
+/* belowFilter */
+
+.belowFilter{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+    cursor: pointer;
+
+}
+
+/* productDisplay-main */
+
+
+.section-two{
+    flex-grow: 1;
+    overflow: auto;
+    display: flex;
+    flex-flow: column;
+    background-color: white;
+    height: 100%;
+}
+.sectionTwo-header{
+    /* align-items: flex-end; */
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    /* flex-grow: 1; */
+    padding: 12px 16px 0;
+    border-bottom: 1px solid #f0f0f0;
+    min-height: 72px;
+}
+.firstHeading{
+    font-size: 12px;
+    color: #878787;
+    display: inline-block;
+}
+.sideArrow{
+    height: 7px;
+    width: 20px;
+    transform: rotate(180deg);
+    vertical-align: middle;
+    color: rgb(135, 135, 135);
+}
+.home{
+    max-width: 80px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    vertical-align: middle;
+    color: rgb(135, 135, 135);
+}
+.showingNum{
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 8px;
+    display: inline-block;
+}
+.sortHeading{
+    display: flex;
+}
+.sortbyy{
+    border-bottom: 2px solid transparent;
+    display: inline-block;
+    font-weight: 500;
+    padding: 8px 10px 4px 0;
+
+}
+.sortList{
+    padding: 8px 0 4px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+ .phoneSection{
+    display: block;
+    width: 100%;
+    align-items: stretch;
+    line-height: 1;
+    padding: 24px 0 30px 24px;
+    position: relative;
+    border-bottom: 1px solid #f0f0f0;
+}
+.phoneSection-a{
+    display: flex;
+    position: relative;
+}
+.phoneImg{
+    position: relative;
+    width: 200px;
+}
+.phoneDescription{
+    padding-left: 25px;
+    width: calc(100% - 200px);
+    display: flex;
+    flex-flow: row wrap;
+}
+.phoneImg-div{
+    position: relative;
+    display: block;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
+.phonepic{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    opacity: 1;
+    max-width: 100%;
+    max-height: 100%;
+}
+.addToComp-div{
+    display: block;
+    margin-top: 16px;
+}
+.box{
+    display: inline-block;
+}
+.labelforcheckbox{
+    cursor: pointer;
+    width: 100%;
+    position: relative;
+    display: block;
+}
+.compareWord{
+    vertical-align: middle;
+    margin-left: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #212121;
+}
+.heart-div{
+    position: absolute;
+    display: inline-block;
+    top: 2px;
+    right: -8px;
+    cursor: pointer;
+}
+.phoneDes-one{
+    width: 58.33%;
+    display: inline-block;
+    vertical-align: top;
+}
+.sponsered{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #dbdbdb;
+    width: auto;
+    border-radius: 4px;
+    display: block;
+}
+.phoneName{
+    font-weight: 500;
+    font-size: 18px;
+    display: block;
+    cursor: pointer;
+    color: #212121;
+}
+.phoneName:hover{
+    color: #2874f0;
+}
+.rating{
+    margin-top: 6px;
+
+}
+.rating-star{
+    position: relative;
+    line-height: normal;
+    display: inline-block;
+    color: #fff;
+    padding: 2px 4px 2px 6px;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 12px;
+    vertical-align: middle;
+    background-color: #388e3c;
+}
+.starimg{
+    margin: 2px 0 0 2px;
+    height: 10px;
+}
+.ratingInWord{
+    padding-left: 8px;
+    font-weight: 500;
+    color: #878787;
+}
+.detailedDes{
+    margin-top: 13px;
+}
+.detailedDes-ul{
+    margin-top: 5px;
+    color: #212121;
+    line-height: 22px;
+    display: table;
+}
+.detailedDes-li{
+    display: table-row;
+    list-style: none;
+}
+.detailedDes-li::before{
+    content: "•";
+    color: rgb(194, 194, 194);
+    padding-right: 8px;
+    display: table-cell;
+}
+.phoneDes-two{
+    padding-left: 25px;
+    width: 41.66%;
+    display: inline-block;
+    vertical-align: top;
+}
+.price-div{
+    display: inline-block;
+    margin-top: -1px;
+    padding-right: 10px;
+}
+.price2{
+    font-size: 25px;
+    display: block;
+    font-weight: 500;
+    color: #212121;
+}
+.orgPrice{
+    padding-top: 10px;
+    margin-left: 0;
+    text-decoration: line-through;
+    color: #878787;
+    font-size: 14px;
+    display: inline-block;
+}
+.discount{
+    color: #388e3c;
+    font-size: 13px;
+    letter-spacing: -.2px;
+    font-weight: 500;
+    margin-left: 8px;
+    display: inline-block;
+}
+.bankOffer{
+    margin-top: 5px;
+    display: inline-block;
+    color: rgb(38, 165, 65);
+    font-size: 14px;
+    font-weight: 700;
+    vertical-align: middle;
+}
+.flipkart-assured{
+    display: inline-block;
+    vertical-align: top;
+    padding-bottom: 4px;
+}
+.upto-of-div{
+    margin-top: 5px;
+    /* display: inline-flex; */
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 400;
+    vertical-align: middle;
+}
+
+.pagesDiv{
+    display: flex;
+    background: #fff;
+    border-top: 1px solid #e0e0e0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    line-height: 32px;
+    border-bottom: 10px solid #f1f3f1;
+}
+nav{
+    padding: 4px 0;
+    text-align: center;
+    font-weight: 500;
+    display: flex;
+
+}
+.unchecked{
+    display: inline-block;
+    padding: 0 8px;
+    cursor: pointer;
+    line-height: 32px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+
+}
+.checked{
+    background: #2874f0;
+    color: white;
+}
+.next{
+    display: inline-block;
+    line-height: 32px;
+    color: #2874f0;
+    padding: 0 25px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.noth{
+    display: inline-block;
+    width: 1px;
+    height: 100%;
+}
+.findDiv{
+    margin: 10px 0px 0px;
+    display: block;
+    background-color: #fff;
+    font-size: 14px;
+    padding: 16px;
+}
+.findDiv-word{
+    font-weight: 500;
+    font-size: 16px;
+}
+.yesNo-div{
+    display: inline-block;
+    margin-left: 24px;
+    font-size: 16px;
+}
+.yes,.no{
+    border-radius: 2px;
+    border: 1px solid #d7d7d7;
+    padding: 6px 28px;
+    margin-right: 8px;
+    font-weight: 500;
+}
+
+
+
+/* details */
+.details{
+    margin: 7px 0;  
+    display: flex;
+    flex-direction: column;
+
+} 
+.cb{
+    top: 0;
+    left: 0;
+} 
+.allitems{
+    vertical-align: middle;
+    font-size: 14px;
+    padding-left: 11px;
+    color: #212121;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1;
+    cursor: pointer;
+} 
+
+.checkboxlabel{
+    padding: 3px 0;
+    cursor: pointer;
+    position: relative;
+    width: 213px;
+}
+
+
+/* clear-div */
+
+.clear-div{
+    cursor: pointer;
+    color: #2874f0;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    
+}
+
+
+
+/* brandDet */
+.brandDet{
+    margin: 7px 0;
+}
+.searchBrandDiv{
+    margin-bottom: 7px;
+}
+.searchI{
+    width: 12px;
+    height: 20px;
+    position: absolute;
+}
+.brandNames{
+    padding: 3px 0;
+    cursor: pointer;
+}
+.bname{
+    padding: 3px 0;
+    display: block;
+    position: relative;
+    cursor: pointer;
+}
+.brandItem{
+    vertical-align: middle;
+    font-size: 14px;
+    padding-left: 11px;
+    color: #212121;
+    display: inline-block;
+    width: 213px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1;
+    cursor: pointer;
+}
+#searchINPUT{
+    width: 100%;
+    border-width: 0 0 2px;
+    border-color: #e0e0e0;
+    height: 20px;
+    font-size: 14px;
+    padding: 0 0 0 21px;
+    color: #878787;
+    outline: none;
+}
+
+
+/* sectionClear-sub */
+.sectionClear-sub{
+    vertical-align: bottom;
+    cursor: pointer;
+    padding: 7px 0;
+}
+.crossDiv{
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+    background-color: #f0f0f0;
+    padding: 1px 0 ;
+    font-size: 10px;
+    text-align: center;
+
+    color: #878787;
+    vertical-align: middle;
+}
+
+.clearWordDiv{
+    display: inline-block;
+    font-size: 14px;
+    color: #878787;
+    margin-left: 11px;
+    line-height: 1.4;
+}
+
+
+/* displaySelected */
+.displaySelected{
+    position: relative;
+    max-height: 104px;
+    overflow: hidden;
+    margin: 8px 0 0 -4px;
+}
+.selectedFilter{
+    display: inline-flex;
+    cursor: pointer;
+    font-size: 12px;
+    background-color: #e0e0e0;
+    box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 0.5);
+    border-radius: 3px;
+    margin: 2px 4px;
+    overflow: hidden;
+    max-width: 200px;
+    padding: 8px;
+
+
+}
+.selectedWord{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    vertical-align: bottom;
+    margin-left: 8px;
+    max-width: 90%;
+}
+.selectedWord:hover{
+    text-decoration: line-through;
+}     
+
+/* active */
+.active{
+    color: #2874f0;
+    cursor: default;
+    border-bottom: 2px solid #2874f0;
+    font-weight: 500;
+}

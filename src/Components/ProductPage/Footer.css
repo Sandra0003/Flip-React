@@ -1,0 +1,83 @@
+footer{
+    background-color: #172337;
+    min-width: 978px;
+    border-top: 1px solid #ddd;
+    margin-top: 25px;
+}
+p{
+    margin: 0;
+    line-height: 1.5;
+}
+
+.footer-div-one{
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 65px;
+    width: 90% !important;
+    padding-top: 40px;
+    text-align: left;
+}
+
+.footerDetails{
+    flex: 1;
+}
+.heading-div-,.social-div{
+    color: #878787;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.footerDetails > a{
+    line-height: 2;
+    color: #fff;
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+
+}
+.footer-sub-m{
+    font-size: 12px;
+    border-left: 1px solid #454d5e;
+    padding: 0 25px;
+    white-space: nowrap;
+}
+.mail-des{
+    color: #fff;
+    margin-bottom: 16px;
+}
+.socialItems{
+    height: 24px;
+    width: 24px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.itemOne{
+    padding: 2px;
+    color: #fff;
+    margin-right: 16px;
+}
+.last-sub-div{
+    margin-bottom: 10px;
+    padding-left: 14px;
+    font-size: 12px;
+}
+.footer-div-two{
+    border-top: 1px solid #454d5e;
+    padding: 25px 0;
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.icon-div-name{
+    color: #fff;
+    margin-left: 8px;
+}
+.copyright{
+    color: #fff;
+    
+}

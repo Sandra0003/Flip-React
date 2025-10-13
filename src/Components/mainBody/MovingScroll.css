@@ -1,0 +1,10 @@
+.subscroll {
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth; /* smooth scroll */
+  width: 100%;
+}
+
+.scroll-item-one {
+  flex: 0 0 auto; /* prevents shrinking */
+}

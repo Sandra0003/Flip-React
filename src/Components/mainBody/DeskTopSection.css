@@ -1,0 +1,37 @@
+/* .section-4{
+    height: calc(100% - 16px);
+    background-color: white;
+    display: none;
+    align-items: center;
+
+} */
+
+
+.section-side{
+    height: calc(100% - 16px);
+    background-color: rgb(255, 255, 255);
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+    order: 4;
+    flex-direction: column;
+    aspect-ratio: 28 / 43;
+    width: 100%;  
+
+}
+.side-img{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    top: -8px;
+    display: block;
+    object-fit: cover;
+    aspect-ratio: 28 / 43;
+}
+@media screen and (min-width:1192px){
+    .section-side{
+        grid-column: 11 / 13;
+    }
+    
+}
+

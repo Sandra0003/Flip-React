@@ -1,0 +1,16 @@
+{
+    "Network Type":["2G","3G","4G","4G VOLTE","5G"],
+    "Discount":["50% or more","40% or more","30% or more","10% or more"],
+    "OperatingSystem":["Android","Blackberry","Firefox","iOS","Windows"],
+    "Processor Brand":["Apple","Google","MOTOROLA","vivo","OPPO","Redmi"],
+    "Rating":["4★ & above","3★ & above"],
+    "gst":["GST Invoice Available"],
+    "Ram":["4 GB","3 GB","2 GB","1GB and Below","8 GB and Above","6 GB and Above"],
+    "Internal Storage":["256 GB & Above","128 - 255.9 GB","64 - 127.9 GB","32 - 63.9 GB","16 - 31.9 GB"],
+    "BatteryCapacity":["1000 - 1999 mAh","2000 - 2999 mAh","3000 - 3999 mAh","4000 - 4999 mAh","5000 - 5999 mAh"],
+    "ScreenSize":["5.7 - 5.9 inch","5.5 - 5.6 inch","5.2 - 5.4 inch"],
+    "PrimaryCamera":["5 - 7.9 MP","Below 5 MP","8 - 11.9 MP","12 - 12.9 MP"],
+    "secondary camera":["12 - 12.9 MP","12 - 15.9 MP","13 - 15.9 MP"],
+    "processor":["AMD","Apple","ARM","Intel"],
+    "Speciality":["Big Storage","Higher Performance","Long-Lasting Battery","Selfie Camera"]
+}      

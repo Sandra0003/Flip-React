@@ -1,0 +1,177 @@
+[
+    {
+        "img":"https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/h/q/k/-original-imahfw4vamrf5xhf.jpeg?q=70",
+        "price":11999,
+        "name" :"OPPO K13x 5G 6000mAh and 45W SUPERVOOC Charger & AI (Midnight Violet, 128 GB)",
+        "discount":"25% off",
+        "ogPrice":"15,999",
+        "brand":"oppo",
+        "Network Type":"2G",
+        "Ram":"4 GB",
+        "Internal Storage":"256 GB & Above",
+        "BatteryCapacity":"1000 - 1999 mAh",
+        "PrimaryCamera":"5 - 7.9 MP",
+        "popularity":3,
+        "date":"2025-06-12",
+        "display":"43.66 cm (17.19 cm) Full HD+ Display" 
+         
+    },   
+    {
+        "img":"https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/y/f/0/-original-imahfghxnhsjpk3a.jpeg?q=70",
+        "price":22999,
+        "name":"realme P4 Pro 5G (Midnight Ivy, 128 GB)",
+        "discount":"30% off",
+        "ogPrice":"20,999",
+        "brand":"realme",
+        "Network Type":"3G",
+        "Ram":"3 GB",
+        "Internal Storage":"128 - 255.9 GB",
+        "BatteryCapacity":"2000 - 2999 mAh",
+        "PrimaryCamera":"Below 5 MP",
+        "popularity":4,
+        "date":"2025-06-21",
+        "display":"43.66 cm (17.19 cm) Full HD+ Display"
+    },
+    {
+        "img":"https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/g/v/p/-original-imah4jyfveygyubc.jpeg?q=70",
+        "price":69999,
+        "name":"Apple iPhone 16 (White, 128 GB)",
+        "discount":"10% off",
+        "brand":"Apple",
+        "ogPrice":"89,000 ",
+        "Network Type":"5G",
+        "Ram":"6 GB and Above",
+        "Internal Storage":"64 - 127.9 GB",
+        "BatteryCapacity":"5000 - 5999 mAh",
+        "PrimaryCamera":"12 - 12.9 MP",
+        "popularity":1,
+        "date":"2025-05-21",
+        "display":"16.76 cm (6.6 inch) Full HD+ Display"
+
+    },
+    {
+        "img":"https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/6/9/t/-original-imahfkvfhpfaftmb.jpeg?q=70",
+        "price":10999,
+        "name":"vivo T4 Lite 5G Charger in the Box (Titanium Gold, 128 GB)", 
+        "brand":"vivo",
+        "ogPrice":"14,999" ,
+        "discount":"26% off",
+        "Network Type":"4G",
+        "Ram":"2 GB",
+        "Internal Storage":"64 - 127.9 GB",
+        "BatteryCapacity":"3000 - 3999 mAh",
+        "popularity":34,
+        "date":"2025-07-10",
+        "display":"17.2 cm (6.77 inch) Display",
+        "PrimaryCamera":"5 - 7.9 MP"
+
+
+    },
+    {
+        "img":"https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/f/b/q/-original-imahegy7gzygezuh.jpeg?q=70",
+        "price":16999,
+        "name":"Motorola g45 5G (Pantone Moss, 128 GB)",
+        "brand":"Motorola",
+        "discount":"21% off",
+        "ogPrice":"20,000 ",
+        "Network Type":"2G",
+        "Ram":"3 GB",
+        "Internal Storage":"16 - 31.9 GB",
+        "BatteryCapacity":"2000 - 2999 mAh",
+        "PrimaryCamera":"5 - 7.9 MP",
+        "date":"2025-07-23",
+        "display":"16.76 cm (6.6 inch) Full HD+ Display"
+
+
+    },
+    {
+        "img":"https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/4/p/o/-original-imahfw4aasyhherc.jpeg?q=70",
+        "price":29999,
+        "name":"Samsung Galaxy S24 FE 5G (Mint, 128 GB)",
+        "brand":"Samsung",
+        "discount":"50% off",
+        "ogPrice":"59,999",
+        "Network Type":"4G VOLTE",
+        "Ram":"4 GB",
+        "Internal Storage":"128 - 255.9 GB",
+        "BatteryCapacity":"3000 - 3999 mAh",
+        "PrimaryCamera":"8 - 11.9 MP",
+        "date":"2025-03-12",
+        "popularity":23,
+        "display":"43.66 cm (17.19 cm) Full HD+ Display"
+    },
+    {
+        "img":"https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/f/h/n/pixel-8a-ga05570-in-google-original-imahyn3ncc6gcfnc.jpeg?q=70",
+        "price": 29999,
+        "name":" Google Pixel 8a (Bay, 128 GB)", 
+        "brand":" Google",
+        "discount":"43% off",     
+        "ogPrice":"52,999",
+        "Network Type":"3G",
+        "Ram":"1GB and Below",
+        "Internal Storage":"32 - 63.9 GB",
+        "BatteryCapacity":"4000 - 4999 mAh",
+        "PrimaryCamera":"5 - 7.9 MP",
+        "popularity":5,
+        "date":"2025-07-03",
+        "display":"17.2 cm (6.77 inch) Display"
+    },
+    {
+        "img":"https://rukminim2.flixcart.com/image/312/312/k0h12fk0/mobile/e/6/n/lenovo-a6-note-pagk0026in-original-imafkyahwrfnpghn.jpeg?q=70",
+        "price":6999 ,
+        "name":"Lenovo A6 Note (Blue, 32 GB ", 
+        "brand":"Lenovo ",
+        "discount":"30% off",
+        "ogPrice":"9,999 ",
+        "Network Type":"2G",
+        "Ram":"2 GB",
+        "Internal Storage":"128 - 255.9 GB",
+        "BatteryCapacity":"1000 - 1999 mAh",
+        "PrimaryCamera":"Below 5 MP",
+        "popularity":2,
+        "date":"2025-10-01",
+        "display":"16.76 cm (6.6 inch) Full HD+ Display"
+
+    },
+    {
+        "img":"https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/h/1/f/-original-imahfvuaymesgerk.jpeg?q=70",
+        "price":216999 ,
+        "brand":"Samsung",
+        "discount": "2% off ",
+        "name":"Samsung Galaxy Z Fold7 5G (Blue Shadow, 1 TB)" ,
+        "ogPrice":"2,19,000",
+        "Network Type":"5G",
+        "Ram":"6 GB and Above",
+        "Internal Storage":"256 GB & Above",
+        "BatteryCapacity":"2000 - 2999 mAh",
+        "PrimaryCamera":"12 - 12.9 MP",
+        "popularity":12,
+        "date":"2025-10-03",
+        "display":"43.66 cm (17.19 cm) Full HD+ Display"
+
+    },
+    {
+        "img":"https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/w/c/9/h17-h17-hotline-original-imah927scsestnue.jpeg?q=70 ",
+        "brand":"Nokia ",
+        "discount":" 53% off",
+        "name":"Nokia H16 ",
+        "ogPrice":"999 ",
+        "price":" 469"  ,
+        "Network Type":"2G"  ,
+        "Ram":"1GB and Below"   ,
+        "Internal Storage":"16 - 31.9 GB"  ,
+        "BatteryCapacity":"3000 - 3999 mAh",
+        "PrimaryCamera":"8 - 11.9 MP",
+        "popularity":21,
+        "date":"2025-09-23",
+        "display":"16.76 cm (6.6 inch) Full HD+ Display"
+                
+    }                                   
+                          
+]
+
+ 
+     
+
+
+ 
