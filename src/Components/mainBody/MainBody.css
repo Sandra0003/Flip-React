@@ -30,7 +30,7 @@
     }
      .movingscroll-main{
         grid-column: 1 /13;
-        order: 1;
+        order: 2;
     }
     .category{
         grid-column: 1 /13;

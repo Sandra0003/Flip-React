@@ -234,6 +234,7 @@ header{
  .hederb{
   flex: 1;
   overflow-x: hidden;
+  overflow-y: scroll;
 
  }                     
 .belowHeader{
@@ -385,6 +386,12 @@ header{
    }
   
 }
+@media (max-width:767px) {
+  .belowHeader{
+    margin: 0;
+  }
+  
+}
 
 @media (min-width:768px) and (max-width:1191px){
   header{
@@ -402,10 +409,14 @@ header{
     max-width: 996px;
     column-gap: 12px;
     margin-top: 8px;
-  }
+  }       
    .imgMain{
     margin-bottom: 4px;
   }
+  .catogory-div{
+    grid-column: 1 /13;
+  }
+ 
 
 }
 
@@ -480,9 +491,6 @@ header{
 }              
 
 
-
-
-
 #container{
   background-color: rgb(241, 242, 244);
   min-height: 100vh;
@@ -514,3 +522,4 @@ header{
   }
   
 }
+

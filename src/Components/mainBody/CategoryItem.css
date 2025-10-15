@@ -51,7 +51,7 @@ a{
 }
 .items-sub{
     display: flex;
-    overflow-x: hidden;
+    overflow-x: scroll;
     overflow-y: hidden;
     scrollbar-width: none;
     scroll-behavior: smooth;
@@ -133,4 +133,11 @@ a{
 }
 .price-div{
     font-weight: 600;
+}
+
+@media (min-width:768px)  and (max-width:1191px){
+     .section-3-div{
+    grid-column: 1 / 13;
+  }
+    
 }

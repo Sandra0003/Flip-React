@@ -143,6 +143,51 @@
     aspect-ratio: 381.656 / 569.656;
 }
 
+@media (max-width: 767px) {
+    .favSectionOne{
+        grid-column: 1 / 13;
+    }
+    .fav{
+        order: 10;
+    }
+    .best{
+        order: 10;
+    }
+    
+}
+
+
+@media (min-width:768px) and (max-width:1191px) {
+    .fav{
+        grid-column: 1/ 13;
+        order: 10;
+    }
+    .best{
+        order: 11;
+        grid-column: 1 /13;
+    }
+    .fav-img-main{
+        flex-basis: 25%;
+        max-width: 25%;
+        flex-grow: 0;
+        flex-shrink: 0;
+
+    }
+    .sub-fav-img{
+        margin-right: 6px;
+        margin-left: 6px;
+        margin-bottom: 8px;
+    }
+    .sub-fav-sec{
+        padding-right: 6px;
+        padding-left: 6px;
+        padding-bottom: 4px;
+    }
+    .sideDisplay{
+        display: none;
+    }
+    
+}
 
 
 @media screen and (min-width:1192px){

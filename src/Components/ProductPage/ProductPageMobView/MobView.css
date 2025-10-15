@@ -40,7 +40,6 @@ a{
     cursor: pointer;
 }
 #MobContainer{
-    min-height: 100vh;
     background-color: white;
 
 }

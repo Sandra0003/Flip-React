@@ -11,12 +11,12 @@
     height: calc(100% - 16px);
     background-color: rgb(255, 255, 255);
     margin-top: 0;
-    display: flex;
     align-items: center;
     order: 4;
     flex-direction: column;
     aspect-ratio: 28 / 43;
     width: 100%;  
+    display: none;
 
 }
 .side-img{
@@ -31,6 +31,8 @@
 @media screen and (min-width:1192px){
     .section-side{
         grid-column: 11 / 13;
+        display: flex;
+
     }
     
 }
