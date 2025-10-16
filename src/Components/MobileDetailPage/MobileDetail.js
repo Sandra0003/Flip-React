@@ -15,7 +15,7 @@ let imgs =[
 let offer=["5% cashback on Axis Bank Flipkart Debit Card up to ₹750","5% cashback on Flipkart SBI Credit Card upto ₹4,000 per calendar quarter","5% cashback on Flipkart Axis Bank Credit Card upto ₹4,000 per statement quarter"]
 const MobileDetail = () => {
     const location =useLocation()
-    const {img, name, price,og,discount} =location.state || {}
+    const {img, name, price,og,discount,ram} =location.state || {}
   return (
     <div id='container'>
         <ProductHeader />
@@ -88,12 +88,18 @@ const MobileDetail = () => {
                             </div>
                         </div>
                         <div className="nav-comp">
-                            <input type="checkbox" name="" id="" />
-                        </div>     
+                            <input type="checkbox" name="" id="" /> <label for="com" className='comp'>Compare</label>
+                        </div> 
+                        <div class="navShare">
+                            <span className='shspan'>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" class="jWKn+i"><path d="M14.78 5.883L9.032 0v3.362C3.284 4.202.822 8.404 0 12.606 2.053 9.666 4.927 8.32 9.032 8.32v3.446l5.748-5.883z" class="g9gS7K" fill="#c2c2c2" fill-rule="evenodd"></path></svg>
+                            <span className='share'>Share</span>
+                            </span>
+                        </div>    
                     </div>
 
                     <div className="phone-des-single">
-                        <span className='phn-name-sin'>{name}</span>
+                        <span className='phn-name-sin'>{name} {ram}</span>
                         <div>
                             <div className="single-rating">
                                 <span className='rating-span'>4.5 <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMyIgaGVpZ2h0PSIxMiI+PHBhdGggZmlsbD0iI0ZGRiIgZD0iTTYuNSA5LjQzOWwtMy42NzQgMi4yMy45NC00LjI2LTMuMjEtMi44ODMgNC4yNTQtLjQwNEw2LjUuMTEybDEuNjkgNC4wMSA0LjI1NC40MDQtMy4yMSAyLjg4Mi45NCA0LjI2eiIvPjwvc3ZnPg==" class="Rza2QY"></img></span>
@@ -137,14 +143,13 @@ const MobileDetail = () => {
                         </div>
                         <div class="viewMoreoff">View 4 more offers</div>
 
-                    </div>    
-                </div>    
+                    </div>                        
+                </div>             
             </div>
-        </div>
-     
+        </div>  
 
 
-
+        
     
 
 

@@ -26,6 +26,7 @@
     font-size: 17px;
     line-height: 24px;
     letter-spacing: -.01px;
+    font-family: "semi-bold";
 }
 .fav-sec-arrow{
     display: flex;

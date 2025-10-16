@@ -186,7 +186,7 @@ const MainBody = () => {
            </div>
 
         </div> 
-        <Footer />
+        <Footer colorName="black"/>
            
         </div> 
   

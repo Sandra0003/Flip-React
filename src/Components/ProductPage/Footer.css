@@ -3,6 +3,11 @@ footer{
     min-width: 978px;
     border-top: 1px solid #ddd;
     margin-top: 25px;
+    font-family: "inter-regu";
+}
+
+.black{
+    background-color: black;
 }
 p{
     margin: 0;
@@ -76,8 +81,15 @@ p{
 .icon-div-name{
     color: #fff;
     margin-left: 8px;
+    font-size: 14px;
 }
 .copyright{
     color: #fff;
+    font-size: 14px;
     
 }
+
+.tele{
+    color: #2874f0;
+}               
+

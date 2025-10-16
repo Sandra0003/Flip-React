@@ -49,6 +49,7 @@
     text-transform: uppercase;
     letter-spacing: .3px;
     display: inline-block;
+    font-family: "semi-bold";
 }
 .arrow{
     display: inline-block;
@@ -67,20 +68,23 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 16px;
+    font-size: 17px;
     text-transform: capitalize;
     /* width: 67%; */
     letter-spacing: .3px;
+    font-family: "semi-bold";
+    line-height: 25.2px;
 
 }
 
 
 .div-one{
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 800;
     text-transform: uppercase;
     color: #212121;
     margin-bottom: 5px;
+    font-family: "inter-regu";
 }
 .div-two,.div-three{
     padding: 5px 0;
@@ -101,7 +105,13 @@
     display: inline-flex;
     vertical-align: top;
 }
+.catogories-a{
+    font-family: "inter-regu";
+    font-size: 14px;
+}
 .mobiles-a{
+     font-family: "semi-bold";
+    font-size: 14px;
     font-weight: 500;
     color: #212121;
 } 
@@ -113,10 +123,11 @@
 }
 .price{
     font-weight: 500;
-    font-size: 13px;
     text-transform: uppercase;
     letter-spacing: .3px;
     display: inline-block;
+    font-family: "semi-bold";
+    font-size: 13px;
 }
 
 .bgdiv{
@@ -304,6 +315,8 @@ option{
     font-size: 16px;
     margin-top: 8px;
     display: inline-block;
+    font-family: "semi-bold";
+
 }
 .sortHeading{
     display: flex;
@@ -313,12 +326,16 @@ option{
     display: inline-block;
     font-weight: 500;
     padding: 8px 10px 4px 0;
+     font-size: 13px;
+    font-family: "semi-bold";
 
 }
 .sortList{
     padding: 8px 0 4px;
     margin: 0 10px;
     cursor: pointer;
+    font-size: 13px;
+    font-family: "inter-regu";
 }
  .phoneSection{
     display: block;
@@ -408,6 +425,7 @@ option{
     display: block;
     cursor: pointer;
     color: #212121;
+    font-family: "semi-bold";
 }
 .phoneName:hover{
     color: #2874f0;
@@ -436,6 +454,7 @@ option{
     padding-left: 8px;
     font-weight: 500;
     color: #878787;
+    font-family: "inter-regu";
 }
 .detailedDes{
     margin-top: 13px;
@@ -449,6 +468,8 @@ option{
 .detailedDes-li{
     display: table-row;
     list-style: none;
+    font-size: 14px;
+    font-family: "inter-regu";
 }
 .detailedDes-li::before{
     content: "•";
@@ -462,7 +483,7 @@ option{
     display: inline-block;
     vertical-align: top;
 }
-.price-div{
+.price-div1{
     display: inline-block;
     margin-top: -1px;
     padding-right: 10px;
@@ -472,6 +493,7 @@ option{
     display: block;
     font-weight: 500;
     color: #212121;
+    font-family: "semi-bold";
 }
 .orgPrice{
     padding-top: 10px;
@@ -496,6 +518,7 @@ option{
     font-size: 14px;
     font-weight: 700;
     vertical-align: middle;
+    font-family: "semi-bold";
 }
 .flipkart-assured{
     display: inline-block;
@@ -509,6 +532,7 @@ option{
     font-size: 14px;
     font-weight: 400;
     vertical-align: middle;
+    font-family: "inter-regu";
 }
 
 .pagesDiv{
@@ -605,10 +629,11 @@ nav{
 } 
 
 .checkboxlabel{
-    padding: 3px 0;
+    padding: 6px 0;
     cursor: pointer;
     position: relative;
     width: 213px;
+
 }
 
 
@@ -642,7 +667,7 @@ nav{
     cursor: pointer;
 }
 .bname{
-    padding: 3px 0;
+    padding: 6px 0;
     display: block;
     position: relative;
     cursor: pointer;
@@ -658,6 +683,7 @@ nav{
     text-overflow: ellipsis;
     line-height: 1;
     cursor: pointer;
+    font-family: "inter-regu";
 }
 #searchINPUT{
     width: 100%;
@@ -738,4 +764,21 @@ nav{
     cursor: default;
     border-bottom: 2px solid #2874f0;
     font-weight: 500;
+}
+
+.needHelp{
+    font-family: "inter-regu";
+    font-size: 14px;
+}
+.HelpMe{
+    color: #2874f0;
+    line-height: 1;
+    font-size: 18px;
+    margin: 5px 0 20px;
+}
+.VQiHOk{
+    transform: rotate(180deg);
+    width: 6px;
+    height: 12px;
+    margin-left: 4px;
 }

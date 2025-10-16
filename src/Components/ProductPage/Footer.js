@@ -1,9 +1,9 @@
 import React from 'react'
 import './Footer.css'
 
-const Footer = () => {
+const Footer = ({colorName}) => {
   return (
-    <footer>
+    <footer className={` ${colorName}`}>
       <div class="footer-div-one">
         <div class="footerDetails">
             <div class="heading-div-">ABOUT</div>  
@@ -72,7 +72,7 @@ const Footer = () => {
                     <p>Bengaluru, 560103</p>
                     <p>Karnataka,India</p>
                     <p>CIN : US1109KA2012PTC066107</p>
-                    <p>Telephone:044-45614700 / 044-45614800</p>
+                    <p>Telephone: <span className='tele'>044-45614700 </span>/ <span className='tele'> 044-45614800</span></p>
                 </div>
 
 
