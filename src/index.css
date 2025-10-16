@@ -12,6 +12,10 @@
   font-weight: 400;
   font-style: normal;
 }
+@font-face {
+  font-family: "robo-regu";
+  src: url(Components/roboto-regular.woff2) format("woff2");
+}
 
 @font-face{
   font-family: "inter-regu";

@@ -59,7 +59,7 @@ const ProductDisplay = ({products,filterSelected,minPrice,maxPrice}) => {
                   <div className="phoneSection cloned-section" id="phoneSection-main">
                     <a href="#" className="phoneSection-a">
                         <div className="phoneImg">
-                            <Link to="/mobdetails" state={{ img: item.img , name: item.name}} >
+                            <Link to="/mobdetails" state={{ img: item.img , name: item.name, price: item.price, og:item.ogPrice, discount : item.discount}} >
                             <div className="phoneImg-div">
                                 <img loading="eager" className="phonepic" src={item.img}/>
                             </div>

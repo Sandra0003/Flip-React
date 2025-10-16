@@ -30,7 +30,7 @@ const MobileSort = ({onSortChange,onClose,initialSort="relevance"}) => {
                 <div className="below-sort-two"></div>
                 <div className="below-sort-three">
                     {sortOpt.map((opt) => (
-                        <div class="sortListt" onClick={handleSortChange(opt.value)}>
+                        <div class="sortListt" onClick={() => handleSortChange(opt.value)}>
                         <div class="sortlist-item-one">
                             <div className='itemName'>{opt.label}</div>
                         </div>

@@ -212,3 +212,177 @@ a{
     text-align: right;
     vertical-align: middle;
 }
+
+
+.phone-des-single{
+    padding: 0;
+    margin-top: 6px;
+}
+.phn-name-sin{
+    line-height: 1.4;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+}
+.single-rating{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 6px;
+    cursor: pointer;
+}
+.rating-span{
+    position: relative;
+    line-height: normal;
+    display: inline-block;
+    color: white;
+    padding: 2px 4px 2px 6px;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 12px;
+    vertical-align: middle;
+    background-color: #388e3c;
+}
+.Rza2QY{
+    margin: 2px 0 0 2px;
+    height: 10px;
+}
+.rating-word-single{
+    padding-left: 8px;
+    font-weight: 500;
+    color: #878787;
+}
+.assured-single{
+    margin-left: 12px;
+    vertical-align: middle;
+    font-size: 20px;
+    cursor: pointer;
+}
+.phone-price-sin{
+    display: flex;
+    padding-top: 12px;
+
+}
+.sing-price{
+    font-size: 28px;
+    vertical-align: sub;
+    display: inline-block;
+    font-weight: 500;
+    color: #212121;
+}
+
+.buyNowSpan{
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTQiIGhlaWdodD0iMTQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTAgMHY3LjdoMi4xVjE0TDcgNS42SDQuMkw3IDAiIGZpbGw9IiNGRkYiLz48L3N2Zz4=");
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 14px;
+}
+
+.single-og-price{
+    font-size: 16px;
+    margin-left: 12px;
+    vertical-align: middle;
+    color: #878787;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: line-through;
+}
+.single-discount{
+    margin-left: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #388e3c;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.aboutIc{
+    margin: 14px 0 0 8px;
+    cursor: pointer;
+    
+}
+.deliverDet{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.promiseDiv{
+    padding-bottom: 4px;
+}
+.learnMore{
+    color: #2874f0;
+    font-weight: 500;
+} 
+.deliveryDate{
+    display: flex;
+} 
+.availbleOffer{
+    margin-top: 8px;
+}  
+.avail{
+    font-size: 16px;
+    font-weight: 500;
+    color: #212121;
+} 
+.offerDet{
+    line-height: 1.43;
+    color: #212121;
+    font-size: 14px;
+    position: relative;
+}
+.offers{
+    margin-top: 12px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+.bankOff{
+    color: #212121;
+    font-weight: 500;
+    padding-right: 4px;
+}
+.yNKwUY{
+    margin-right: 10px;
+
+}
+.t-c{
+    position: relative;
+    display: inline-block;
+    color: #2874f0;
+    font-weight: 500;
+    margin-left: 5px;
+    cursor: pointer;
+
+
+}
+.viewPoints{
+    display: inline-block;
+    margin-left: 8px;
+}
+.viewPointsbt{
+    color: #2874f0;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+    vertical-align: middle;
+    margin-top: -2px;
+    background-color: white;
+    font-weight: 500;
+}
+.viewPl{
+    margin-right: 4px;
+}
+.viewMoreoff{
+    margin-top: 8px;
+    color: #2874f0;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+    
+}

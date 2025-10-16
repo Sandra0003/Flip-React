@@ -7,16 +7,21 @@ import TopDeals from './TopDeals'
 import {Router,Route} from 'react-router-dom'
 import MobileFilter from '../MobViewFilter/MobileFilter'
 import { useState } from 'react'
+import MobileSort from '../MobViewSort/MobileSort'
 
 
 
 const MobView = () => {
     const [sortType,setSortType] = useState("relevance")
+    const [showSort, setShowSort] = useState(false);
+
     const [showFilter,setShowFilter]= useState(false)
     const [filteredProducts, setFilteredProducts] = useState(products);
     const [selectedCount, setSelectedCount] = useState(0);
 
-    const sortedPro = [...products].sort((a,b) => {
+    const handleSortChange = (newSortType) => setSortType(newSortType)
+
+    const sortedPro = [...filteredProducts].sort((a,b) => {
       if (sortType === "low") return a.price - b.price;
       if (sortType === "high") return b.price - a.price;
       if (sortType === "popularity") return b.popularity - a.popularity;
@@ -45,8 +50,8 @@ const MobView = () => {
       <div class="halfDiv all">
         <div class="halfDiv-sub">
           <Ad />
-          {/* <MobProductdisplay products={sortedPro} /> */}
-          <MobProductdisplay products={filteredProducts}/>
+          <MobProductdisplay products={sortedPro} />
+          {/* <MobProductdisplay products={filteredProducts}/> */}
           {/* <MobProductdisplay products={products.slice(0,4)}/> */}
           <TopDeals products={products.slice(4,9)} />
           {/* <MobProductdisplay products={products.slice(5,9)} /> */}
@@ -61,18 +66,26 @@ const MobView = () => {
 
       </div>
     
-      <MobViewHeader onFilterToggle={setShowFilter} selectedCount={selectedCount}/>
+      <MobViewHeader onFilterToggle={setShowFilter} selectedCount={selectedCount} onSortChange={handleSortChange}/>
+      {showSort && (  
+        <div className='mobsort-overlay'>
+        <MobProductdisplay products={sortedPro} />
+                </div>
+
+        )}
+      
       {showFilter &&(
         <div className='filter-overlay'>
           <MobileFilter onClose={() => setShowFilter(false)} onApply={applyFilters} />
 
         </div>
       ) }
-                                                                                         
+    
 
+   
 
     </div>             
-  )
+  )                                                
 }
 
 export default MobView
