@@ -59,7 +59,7 @@ const ProductDisplay = ({products,filterSelected,minPrice,maxPrice}) => {
                   <div className="phoneSection cloned-section" id="phoneSection-main">
                     <a href="#" className="phoneSection-a">
                         <div className="phoneImg">
-                            <Link to="/mobdetails" state={{ img: item.img , name: item.name, price: item.price, og:item.ogPrice, discount : item.discount,ram :item.ram}} >
+                            <Link to="/mobdetails" state={{ img: item.img , name: item.name, price: item.price, og:item.ogPrice, discount : item.discount,ram :item.ram, rating:item.rating}} >
                             <div className="phoneImg-div">
                                 <img loading="eager" className="phonepic" src={item.img}/>
                             </div>
@@ -88,8 +88,8 @@ const ProductDisplay = ({products,filterSelected,minPrice,maxPrice}) => {
                                 
                                 
                                 <div className="rating">
-                                    <div className="rating-star">4.3 <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMyIgaGVpZ2h0PSIxMiI+PHBhdGggZmlsbD0iI0ZGRiIgZD0iTTYuNSA5LjQzOWwtMy42NzQgMi4yMy45NC00LjI2LTMuMjEtMi44ODMgNC4yNTQtLjQwNEw2LjUuMTEybDEuNjkgNC4wMSA0LjI1NC40MDQtMy4yMSAyLjg4Mi45NCA0LjI2eiIvPjwvc3ZnPg==" class="starimg"/></div>
-                                    <span className="ratingInWord">2,45,570 Ratings &  16,865 Reviews</span>
+                                    <div className="rating-star">{item.rating} <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMyIgaGVpZ2h0PSIxMiI+PHBhdGggZmlsbD0iI0ZGRiIgZD0iTTYuNSA5LjQzOWwtMy42NzQgMi4yMy45NC00LjI2LTMuMjEtMi44ODMgNC4yNTQtLjQwNEw2LjUuMTEybDEuNjkgNC4wMSA0LjI1NC40MDQtMy4yMSAyLjg4Mi45NCA0LjI2eiIvPjwvc3ZnPg==" class="starimg"/></div>
+                                    <span className="ratingInWord">{item.ratingWord}</span>
                                 </div>
                                 <div className="detailedDes">
                                     <ul className="detailedDes-ul">

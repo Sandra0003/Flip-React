@@ -15,7 +15,7 @@ let imgs =[
 let offer=["5% cashback on Axis Bank Flipkart Debit Card up to ₹750","5% cashback on Flipkart SBI Credit Card upto ₹4,000 per calendar quarter","5% cashback on Flipkart Axis Bank Credit Card upto ₹4,000 per statement quarter"]
 const MobileDetail = () => {
     const location =useLocation()
-    const {img, name, price,og,discount,ram} =location.state || {}
+    const {img, name, price,og,discount,ram,rating} =location.state || {}
   return (
     <div id='container'>
         <ProductHeader />
@@ -102,7 +102,7 @@ const MobileDetail = () => {
                         <span className='phn-name-sin'>{name} {ram}</span>
                         <div>
                             <div className="single-rating">
-                                <span className='rating-span'>4.5 <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMyIgaGVpZ2h0PSIxMiI+PHBhdGggZmlsbD0iI0ZGRiIgZD0iTTYuNSA5LjQzOWwtMy42NzQgMi4yMy45NC00LjI2LTMuMjEtMi44ODMgNC4yNTQtLjQwNEw2LjUuMTEybDEuNjkgNC4wMSA0LjI1NC40MDQtMy4yMSAyLjg4Mi45NCA0LjI2eiIvPjwvc3ZnPg==" class="Rza2QY"></img></span>
+                                <span className='rating-span'>{rating} <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMyIgaGVpZ2h0PSIxMiI+PHBhdGggZmlsbD0iI0ZGRiIgZD0iTTYuNSA5LjQzOWwtMy42NzQgMi4yMy45NC00LjI2LTMuMjEtMi44ODMgNC4yNTQtLjQwNEw2LjUuMTEybDEuNjkgNC4wMSA0LjI1NC40MDQtMy4yMSAyLjg4Mi45NCA0LjI2eiIvPjwvc3ZnPg==" class="Rza2QY"></img></span>
                                 <span className='rating-word-single'>2,45,570 Ratings &  16,865 Reviews</span>
                                 <img height="21" src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_9e47c1.png" class="assured-single"></img>
                             </div>
@@ -146,9 +146,10 @@ const MobileDetail = () => {
                     </div>                        
                 </div>             
             </div>
-        </div>  
+        </div> 
 
 
+            
         
     
 

@@ -13,7 +13,10 @@
         "PrimaryCamera":"5 - 7.9 MP",
         "popularity":3,
         "date":"2025-06-12",
-        "display":"43.66 cm (17.19 cm) Full HD+ Display" 
+        "display":"43.66 cm (17.19 cm) Full HD+ Display",
+        "rating" :4.3,
+        "ratingWord":"2,45,570 Ratings &  16,865 Reviews"
+
          
     },   
     {
@@ -30,7 +33,9 @@
         "PrimaryCamera":"Below 5 MP",
         "popularity":4,
         "date":"2025-06-21",
-        "display":"43.66 cm (17.19 cm) Full HD+ Display"
+        "display":"43.66 cm (17.19 cm) Full HD+ Display",
+        "rating":5.6,
+        "ratingWord":"1,45,570 Ratings &  10,865 Reviews"
     },
     {
         "img":"https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/g/v/p/-original-imah4jyfveygyubc.jpeg?q=70",
@@ -46,7 +51,10 @@
         "PrimaryCamera":"12 - 12.9 MP",
         "popularity":1,
         "date":"2025-05-21",
-        "display":"16.76 cm (6.6 inch) Full HD+ Display"
+        "display":"16.76 cm (6.6 inch) Full HD+ Display",
+        "rating":5.4,
+        "ratingWord":"1,20,570 Ratings &  8,865 Reviews"
+
 
     },
     {
@@ -63,7 +71,9 @@
         "popularity":34,
         "date":"2025-07-10",
         "display":"17.2 cm (6.77 inch) Display",
-        "PrimaryCamera":"5 - 7.9 MP"
+        "PrimaryCamera":"5 - 7.9 MP",
+        "rating":5.2,
+        "ratingWord":"20,570 Ratings &  8,000 Reviews"
 
 
     },
@@ -80,7 +90,9 @@
         "BatteryCapacity":"2000 - 2999 mAh",
         "PrimaryCamera":"5 - 7.9 MP",
         "date":"2025-07-23",
-        "display":"16.76 cm (6.6 inch) Full HD+ Display"
+        "display":"16.76 cm (6.6 inch) Full HD+ Display",
+        "rating":3.6,
+        "ratingWord":"2,45,570 Ratings &  16,865 Reviews"
 
 
     },
@@ -98,7 +110,9 @@
         "PrimaryCamera":"8 - 11.9 MP",
         "date":"2025-03-12",
         "popularity":23,
-        "display":"43.66 cm (17.19 cm) Full HD+ Display"
+        "display":"43.66 cm (17.19 cm) Full HD+ Display",
+        "rating":4.5,
+        "ratingWord":"1,45,570 Ratings &  10,865 Reviews"
     },
     {
         "img":"https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/f/h/n/pixel-8a-ga05570-in-google-original-imahyn3ncc6gcfnc.jpeg?q=70",
@@ -114,7 +128,9 @@
         "PrimaryCamera":"5 - 7.9 MP",
         "popularity":5,
         "date":"2025-07-03",
-        "display":"17.2 cm (6.77 inch) Display"
+        "display":"17.2 cm (6.77 inch) Display",
+        "rating":3.2,
+        "ratingWord":"1,14,570 Ratings &  8,865 Reviews"
     },
     {
         "img":"https://rukminim2.flixcart.com/image/312/312/k0h12fk0/mobile/e/6/n/lenovo-a6-note-pagk0026in-original-imafkyahwrfnpghn.jpeg?q=70",
@@ -130,7 +146,9 @@
         "PrimaryCamera":"Below 5 MP",
         "popularity":2,
         "date":"2025-10-01",
-        "display":"16.76 cm (6.6 inch) Full HD+ Display"
+        "display":"16.76 cm (6.6 inch) Full HD+ Display",
+        "rating":4.5,
+        "ratingWord":"2,45,570 Ratings &  16,865 Reviews"
 
     },
     {
@@ -147,7 +165,9 @@
         "PrimaryCamera":"12 - 12.9 MP",
         "popularity":12,
         "date":"2025-10-03",
-        "display":"43.66 cm (17.19 cm) Full HD+ Display"
+        "display":"43.66 cm (17.19 cm) Full HD+ Display",
+        "rating":5.5,
+        "ratingWord":"1,45,570 Ratings &  9,865 Reviews"
 
     },
     {
@@ -164,7 +184,9 @@
         "PrimaryCamera":"8 - 11.9 MP",
         "popularity":21,
         "date":"2025-09-23",
-        "display":"16.76 cm (6.6 inch) Full HD+ Display"
+        "display":"16.76 cm (6.6 inch) Full HD+ Display",
+        "rating":4.3,
+        "ratingWord":"20,570 Ratings &  8,000 Reviews"
                 
     }                                   
                           
