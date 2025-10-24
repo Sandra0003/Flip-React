@@ -1,5 +1,4 @@
-import React, { useState } from 'react'
-
+import React, { useEffect, useState } from 'react'
 import "./MobileFilter.css"
 import filterDetails from "../../../FilterDetails.json"
 
@@ -8,11 +7,17 @@ import filterDetails from "../../../FilterDetails.json"
 const filterCatogories = ["Network Type","Ram","Internal Storage","Processor Brand","Battery Capacity","Resolution Type","Primary Camera","Sim Type","Customer Ratings","Discount","Gst Invoice available","screen size","secondary camera","offers","Features","type","number of cores","availabilty","clock speed"]
 
 
-const MobileFilter = ({onClose,onApply,onfilterChange,initialSelected ={}}) => {
+const MobileFilter = ({onClose,onApply,initialSelected ={}}) => {
 
   const [showFilter,setShowFilter] = useState("")
 
   const [selectedFilters,setSelectedFilters] = useState(initialSelected)
+
+  useEffect(()=>{
+    if(filterCatogories.length>0) {
+      setShowFilter(filterCatogories[0])
+    }
+  },[])
 
   const handleClicks =(category) =>{
     setShowFilter(category)
@@ -37,7 +42,7 @@ const MobileFilter = ({onClose,onApply,onfilterChange,initialSelected ={}}) => {
   };
        
   const handleApplyFilters = () => {
-    onApply(selectedFilters); // send selected filters to parent
+    onApply(selectedFilters); // send selected filters
     onClose(); // close overlay
   };
 
@@ -79,7 +84,7 @@ const MobileFilter = ({onClose,onApply,onfilterChange,initialSelected ={}}) => {
                                     <div className="filterCb-div-sub">{option}</div>
                               </div>
                   ))
-                  ) : ( <p></p>)) : ( <p>Select a category to see options</p>) }
+                  ) : ( <p></p>)) : ( <p></p>) }
                   </div>
             </div>
         </div>

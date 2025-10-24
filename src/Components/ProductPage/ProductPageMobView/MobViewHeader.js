@@ -4,7 +4,11 @@ import MobileSort from '../MobViewSort/MobileSort'
 import MobileFilter from '../MobViewFilter/MobileFilter'
 
 
-const MobViewHeader = ({onFilterToggle}) => {
+const MobViewHeader = ({onFilterToggle,onSortChange}) => {
+
+    const handleSortChange =(sortType) => {
+        onSortChange(sortType)
+    }
     const [sortDetails,setSortDetails]=useState(false)
 
     const [filterDetails,setFilterDetails] =useState(false)
@@ -125,7 +129,11 @@ const MobViewHeader = ({onFilterToggle}) => {
                         </div>
                     </div>
                 </div> 
-             {sortDetails && <MobileSort /> }   
+             {sortDetails && <MobileSort onSortChange={(type) => {
+             handleSortChange(type)
+             setSortDetails(false)
+             } }
+             /> }   
 
 
             
