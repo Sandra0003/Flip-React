@@ -107,16 +107,14 @@ const MobView = () => {
   const [selectedCount, setSelectedCount] = useState(0)
   const [filters, setFilters] = useState({})
 
-  // 🔹 Handle filtering
+
   const applyFilters = (newFilters) => {
     setFilters(newFilters)
     const count = Object.values(newFilters).reduce((acc, arr) => acc + arr.length, 0)
     setSelectedCount(count)
   }
 
-  // 🔹 Recalculate filtered & sorted products whenever filters OR sortType change
   useEffect(() => {
-    // 1️⃣ Apply filters
     let result = products.filter(product =>
       Object.entries(filters).every(([category, options]) => {
         if (!options || options.length === 0) return true
@@ -124,15 +122,13 @@ const MobView = () => {
       })
     )
 
-    // 2️⃣ Apply sorting
     if (sortType === "low") result.sort((a, b) => a.price - b.price)
     else if (sortType === "high") result.sort((a, b) => b.price - a.price)
     else if (sortType === "popularity") result.sort((a, b) => b.popularity - a.popularity)
     else if (sortType === "new") result.sort((a, b) => new Date(b.date) - new Date(a.date))
 
-    // 3️⃣ Update state
     setFilteredProducts(result)
-  }, [filters, sortType]) // 🔥 both filter and sort trigger updates
+  }, [filters, sortType]) 
 
   return (
     <div id='MobContainer'>
